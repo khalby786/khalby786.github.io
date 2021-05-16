@@ -8,31 +8,30 @@
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
   </div>
-  
+
   <transition name="fade" mode="out-in">
-      <router-view/>
+    <router-view />
   </transition>
 
   <Footer />
-
 </template>
 
 <script>
-import Banner from '@/components/Banner.vue';
-import Footer from '@/components/Footer.vue';
+import Banner from "@/components/Banner.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Footer, 
-    Banner
+    Footer,
+    Banner,
   },
-  data: function() {
+  data: function () {
     return {
-      showBanner: false
-    }
-  }
-}
+      showBanner: true,
+    };
+  },
+};
 </script>
 
 <style>
@@ -48,14 +47,14 @@ body {
   letter-spacing: -0.004em;
   font-kerning: normal;
   font-variant-ligatures: contextual common-ligatures;
-  font-feature-settings: 'kern', 'liga', 'calt';
+  font-feature-settings: "kern", "liga", "calt";
   height: auto;
   --block-shadow-color: #ff6b6b;
 }
 
 ::selection {
-  background-color: #100e17;
-  color: white;
+  background-color: cyan;
+  color: black;
 }
 
 h1 {
@@ -64,13 +63,17 @@ h1 {
   font-size: 5vw;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Fira Code", "Fira Mono", monospace;
 }
 
 a {
   color: #6b17e6;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
   isolation: isolate;
 }
 
@@ -101,7 +104,6 @@ a {
   overflow: auto;
 } */
 
-
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;
@@ -111,6 +113,6 @@ a {
 
 .fade-enter,
 .fade-leave-active {
-  opacity: 0
+  opacity: 0;
 }
 </style>

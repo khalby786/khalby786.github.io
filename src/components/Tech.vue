@@ -55,8 +55,8 @@
 
 <script>
 export default {
-    name: "Tech"
-}
+  name: "Tech",
+};
 </script>
 
 <style scoped>
@@ -65,12 +65,12 @@ export default {
   grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
-  grid-row-gap: 10px; 
+  grid-row-gap: 10px;
   text-align: center;
   overflow: auto;
 }
 
-[class~=colored] {
+[class~="colored"] {
   font-size: 30px;
   isolation: isolate;
 }
