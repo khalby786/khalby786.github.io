@@ -28,7 +28,7 @@ export default {
   },
   data: function () {
     return {
-      showBanner: true,
+      showBanner: false,
     };
   },
 };
@@ -38,9 +38,9 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@300;400;500;700;900&display=swap");
 
 body {
-  padding-left: 15vw;
-  padding-right: 15vw;
-  padding-top: 13vw;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 100px;
   padding-bottom: 10px;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -50,6 +50,7 @@ body {
   font-feature-settings: "kern", "liga", "calt";
   height: auto;
   --block-shadow-color: #ff6b6b;
+  color: black;
 }
 
 ::selection {
@@ -59,7 +60,6 @@ body {
 
 h1 {
   font-family: "Fira Code", "Fira Mono", monospace;
-  text-align: center;
   font-size: 5vw;
 }
 
@@ -69,6 +69,7 @@ h4,
 h5,
 h6 {
   font-family: "Fira Code", "Fira Mono", monospace;
+  color: #AA2EE6;
 }
 
 a {

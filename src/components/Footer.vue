@@ -13,6 +13,14 @@
       href="//www.youtube.com/channel/UCXf1CMT59vnhMKi4nU0a9kQ"
       ><p>also check out this cool youtube channel (not mine)</p></a
     >
+
+    <p class="footer-text">
+      <a href="https://github.com/khalby786/personal-website/issues">Report a problem</a> ~
+      <a href="https://github.com/khalby786/personal-website">View source</a>
+      <br />
+      Powered by <a href="https://netlify.com">Netlify</a> ~
+      Analytics by <a href="https://splitbee.io">Splitbee</a>
+    </p>
   </footer>
 </template>
 
@@ -63,5 +71,17 @@ footer {
 p {
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+  color: gray;
+}
+
+.footer-text > a {
+  color: inherit;
+  text-decoration: none;
 }
 </style>

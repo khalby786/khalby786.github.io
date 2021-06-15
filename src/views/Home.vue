@@ -2,8 +2,8 @@
   <div class="home">
     <span class="hidden-text">pretend you didn't see this</span>
     <Me />
-    <h1 id="heading">Khaleel Gibran</h1>
-    <p id="tagline">a fourteen-year-old alien from out there...</p>
+    <h1 id="heading">hi, i'm <br /><span class="heading-name">Khaleel Gibran</span></h1>
+    <p id="tagline"><i>a fourteen-year-old alien from out there...</i></p>
     <h3>who am i?</h3>
     <p>
       I am a fourteen-year-old web designer/developer from India. I started
@@ -71,13 +71,23 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+#heading {
   margin-bottom: 0px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+}
+
+.heading-name {
+  font-family: "Fira Code", "Fira Mono", monospace;
+  font-weight: bold;
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,14,195,1) 35%, rgba(206,0,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #tagline {
-  text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   max-width: 100% !important;
 }
 
@@ -88,6 +98,16 @@ h1 {
 
 p {
   max-width: 500px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul > li:before {
+  font-family: "Fira Code", "Fira Mono", monospace;
+  content: "~~ ";
 }
 
 @media only screen and (max-width: 500px) {
