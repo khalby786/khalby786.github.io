@@ -1,13 +1,6 @@
 <template>
   <br /><br />
   <div id="social-icons">
-    <a href="//github.com/khalby786"
-      ><img
-        src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/github.svg" alt="GitHub"
-    /></a>
-    <a href="//glitch.com/@khalby786"
-      ><img src="/GlitchIcon_Solid_Black.png" alt="Glitch"
-    /></a>
     <a href="//twitter.com/khalby786"
       ><img
         src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/twitter-alt.svg" alt="Twitter"
@@ -15,6 +8,13 @@
     <a href="//instagram.com/khalby786"
       ><img
         src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/instagram.svg" alt="Instagram"
+    /></a>
+    <a href="//github.com/khalby786"
+      ><img
+        src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/github.svg" alt="GitHub"
+    /></a>
+    <a href="//glitch.com/@khalby786"
+      ><img src="/GlitchIcon_Solid_Black.png" alt="Glitch"
     /></a>
     <a href="//twitch.tv/khalby786"
       ><img

@@ -8,11 +8,11 @@
     </p> -->
     <a href="https://1mb.club/"><span>1mb club</span></a>
     <br />
-    <a
+    <!-- <a
       class="darkmode-ignore"
       href="//www.youtube.com/channel/UCXf1CMT59vnhMKi4nU0a9kQ"
-      ><p>also check out this cool youtube channel (not mine)</p></a
-    >
+      ><p>check out this cool youtube channel (not mine)</p></a
+    > -->
 
     <p class="footer-text">
       <a href="https://github.com/khalby786/personal-website/issues">Report a problem</a> ~

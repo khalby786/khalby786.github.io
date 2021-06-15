@@ -1,4 +1,9 @@
 <template>
+  <header>
+    <p><a href="https://blog.khaleelgibran.com" target="_blank">blog</a></p>
+    <p><a href="https://art.khaleelgibran.com" target="_blank">art</a></p>
+    <p><a href="https://github.com/khalby786" target="_blank">github</a></p>
+  </header>
   <div id="nav">
     <div id="top">
       <div id="progress-indicator"></div>
@@ -88,10 +93,36 @@ a {
   left: 0;
   right: 0;
   height: 5px;
+  top: 0;
 }
 
-#top {
-  top: 0;
+header {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #9c6bff;
+  color: white;
+  height: 30px;
+  padding-left: 10px;
+  vertical-align: middle;
+  font-weight: bold;
+  padding-top: 5px;
+  /* padding-bottom: 5px; */
+}
+
+header > p {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+header > p > a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* footer {

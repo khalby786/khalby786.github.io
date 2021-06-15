@@ -1,8 +1,10 @@
 # My Personal Website
 
-Yup, this is my personal website and it's under active development. Hope you like it!
+My personal website made using Vue, hosted on Netlify.
 
-## Project setup
+[https://khaleelgibran.com](https://khaleelgibran.com)
+
+## Local Installation
 ```
 npm install
 ```
